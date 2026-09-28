@@ -1886,7 +1886,7 @@ function initContactForm() {
     submitBtn.disabled = true;
     submitBtn.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Preparing Message...`;
 
-    const formattedMessage = `Hello Dinesh Kumar / DK Designs Studio,
+    const formattedMessage = `Hello Dinesh Kumar,
 
 I would like to inquire about a project:
 
