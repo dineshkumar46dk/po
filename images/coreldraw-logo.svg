@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" width="100%" height="100%">
+  <defs>
+    <!-- Facet Color Gradients matching CorelDRAW Hot Air Balloon emblem -->
+    <linearGradient id="facetTopBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+
+    <linearGradient id="facetTopGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b09b"/>
+      <stop offset="100%" stop-color="#96c93d"/>
+    </linearGradient>
+
+    <linearGradient id="facetGreenMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="facetYellowLime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a3e635"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+
+    <linearGradient id="facetOrangeYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+
+    <linearGradient id="facetRedOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+
+    <linearGradient id="facetPurpleRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+
+    <linearGradient id="facetVioletPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+
+    <linearGradient id="facetCyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+
+    <style>
+      .corel-text {
+        font-family: 'Space Grotesk', 'Outfit', 'Inter', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        fill: #18181b;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+
+  <!-- HOT AIR BALLOON VECTOR GRAPHIC -->
+  <g transform="translate(250, 190)">
+    <!-- Base Color Multi-facet Balloon Silhouette -->
+    <!-- Balloon Outline Clip Path Container -->
+    <g>
+      <!-- Left Outer Section (Cyan / Blue) -->
+      <path d="M 0,-180 C -80,-180 -150,-130 -160,-50 C -170,30 -140,100 -25,145 L -25,145 Z" fill="url(#facetCyanBlue)"/>
+      <path d="M -160,-50 C -170,10 -150,70 -110,120 L -60,60 Z" fill="url(#facetVioletPurple)"/>
+      <path d="M -110,120 C -90,140 -55,160 -25,165 L -70,70 Z" fill="url(#facetPurpleRed)"/>
+      <path d="M -70,70 L -25,165 L -10,168 L -15,100 Z" fill="url(#facetRedOrange)"/>
+
+      <!-- Center & Right Sections (Green, Lime, Yellow, Orange) -->
+      <path d="M 0,-180 C 80,-180 150,-130 160,-50 C 170,30 140,100 25,145 Z" fill="url(#facetTopGreen)"/>
+      <path d="M 40,-160 C 110,-140 155,-70 150,0 L 50,20 Z" fill="url(#facetGreenMid)"/>
+      <path d="M 150,0 C 150,60 120,110 70,140 L 40,40 Z" fill="url(#facetYellowLime)"/>
+      <path d="M 70,140 C 50,155 30,165 15,168 L 10,80 Z" fill="url(#facetOrangeYellow)"/>
+      <path d="M 0,-180 C -40,-180 -110,-150 -140,-90 L 0,-10 Z" fill="url(#facetTopBlue)"/>
+    </g>
+
+    <!-- White Curved Vertical Rib Overlay (Creates the distinct 6-panel hot air balloon stripes) -->
+    <!-- Rib 1 (Center Left) -->
+    <path d="M 0,-182 C -45,-140 -65,-40 -32,166 L -20,165 C -52,-40 -35,-140 0,-182 Z" fill="#ffffff"/>
+    
+    <!-- Rib 2 (Center Right) -->
+    <path d="M 0,-182 C 45,-140 65,-40 32,166 L 20,165 C 52,-40 35,-140 0,-182 Z" fill="#ffffff"/>
+
+    <!-- Rib 3 (Far Left) -->
+    <path d="M -50,-175 C -105,-120 -130,-20 -70,148 L -58,145 C -115,-20 -92,-120 -40,-173 Z" fill="#ffffff"/>
+
+    <!-- Rib 4 (Far Right) -->
+    <path d="M 50,-175 C 105,-120 130,-20 70,148 L 58,145 C 115,-20 92,-120 40,-173 Z" fill="#ffffff"/>
+
+    <!-- Outer Edge White Contour Curves -->
+    <path d="M -100,-150 C -150,-90 -165,-10 -115,115 L -105,110 C -152,-10 -138,-85 -92,-145 Z" fill="#ffffff" opacity="0.9"/>
+    <path d="M 100,-150 C 150,-90 165,-10 115,115 L 105,110 C 152,-10 138,-85 92,-145 Z" fill="#ffffff" opacity="0.9"/>
+
+    <!-- Trapezoid Basket at Bottom -->
+    <polygon points="-32,185 32,185 24,218 -24,218" fill="#52525b"/>
+  </g>
+
+  <!-- CorelDRAW Text Typography -->
+  <text x="250" y="490" text-anchor="middle" class="corel-text">CorelDRAW</text>
+</svg>
